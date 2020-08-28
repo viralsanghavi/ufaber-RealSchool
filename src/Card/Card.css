@@ -1,0 +1,42 @@
+.card {
+  width: 255px;
+  height: 258px;
+  background-color: #f6feff;
+  box-shadow: 3px 3px 0px #0000001a;
+  border-radius: 5px;
+  text-align: center;
+  place-items: center;
+  display: grid;
+}
+
+h5 {
+  font-family: myFirstFont;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.carding > p {
+  color: #ee3f5a;
+  font-family: "Montserrat", sans-serif;
+}
+.carding {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  height: 150px;
+}
+
+.carding > strong {
+  font-family: "Montserrat", sans-serif;
+
+  color: #333333;
+  font-weight: 300;
+}
+.carding > span {
+  font-family: "Montserrat", sans-serif;
+  width: 223px;
+  height: 18px;
+  color: #333333;
+  font-size: 12px;
+}

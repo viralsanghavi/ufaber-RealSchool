@@ -1,0 +1,104 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(./Assets/Grandstander-clean.ttf);
+}
+
+.navbar {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 10px #0000001a;
+  opacity: 1;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 71px;
+  padding-right: 165px;
+}
+
+.navbar > h1 {
+  color: #ff3a58;
+  flex: 0.3;
+  font-size: 28px;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.navbar > h1 > span {
+}
+
+.navbar__navs > h3 {
+  font-size: 14px;
+  font-family: myFirstFont;
+  font-weight: 500;
+}
+.navbar__navs {
+  /* text-align: left; */
+  /* font: normal normal normal 14px/25px Granstander Clean; */
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  display: flex;
+  flex: 0.5;
+  justify-content: space-between;
+}
+.navbar__menu {
+  flex: 0.1;
+  font-size: 35px !important;
+}
+
+.navbar__user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #333333;
+  box-shadow: 1px 1px 0px #00000029;
+  /* border: 1px solid #333333; */
+
+  border-radius: 25px;
+}
+.navbar__user > h1 {
+  font-size: 16px;
+  font-family: myFirstFont;
+  font-weight: 500;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+.navbar__user > .MuiSvgIcon-root > path {
+  fill: #a0e467;
+}
+.navbar__user > .MuiSvgIcon-root {
+  /* border-radius: 50%; */
+  font-size: 40px;
+  color: #bffe8a !important;
+  /* background-color: #a0e467; */
+  /* border-radius: 50%; */
+}
+.navbar__menuShort {
+  display: none !important;
+}
+
+@media (max-width: 770px) {
+  .navbar__navs {
+    display: none;
+  }
+  .navbar__menu {
+    color: #cbd8db !important;
+    display: none !important;
+  }
+  .navbar > h1 {
+    flex: 0.5;
+    font-size: 22px;
+  }
+  .navbar__user {
+    flex: 0.43;
+  }
+  .navbar {
+    padding: 10px;
+    height: 55px;
+  }
+  .navbar__menuShort {
+    display: inline !important;
+    font-size: 25px !important;
+    color: #cbd8db !important;
+  }
+}

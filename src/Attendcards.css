@@ -1,0 +1,440 @@
+.hero,
+.infoCard {
+  padding: 0 130px;
+}
+.hero {
+  padding-bottom: 40px !important;
+}
+.infoCard {
+  padding-top: 25px;
+}
+.infoCard__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.infoCard > p {
+  color: #5a5959;
+  font-size: 14px;
+  margin-bottom: 101px;
+  width: 900px;
+  height: 83px;
+}
+
+.infoCard > hr {
+  width: 32px;
+  height: 6px;
+  background-color: #a0e467;
+  border: none;
+  border-radius: 6px;
+}
+
+.MuiCardActions-root {
+  float: right;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+  text-align: right;
+}
+.MuiBreadcrumbs-ol {
+  padding-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+.MuiBreadcrumbs-li,
+.MuiBreadcrumbs-li > p {
+  color: #adbabd;
+  font-size: 12px !important;
+}
+.media {
+  display: flex;
+  /* justify-content: center; */
+  width: 730px;
+  flex: 1;
+}
+
+.MuiPaper-root {
+  background-color: white !important;
+  width: 300px;
+  height: 300px;
+  margin-right: 30px;
+  margin-bottom: 101px;
+}
+
+.MuiTypography-h5 {
+  flex: 0.5;
+  align-items: flex-start;
+  display: flex;
+  margin-left: 5px !important;
+  color: #474747;
+  font-family: "Montserrat";
+  font-size: 22px !important;
+}
+
+.MuiCardActionArea-root {
+  height: 230px;
+}
+.hero__title {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero {
+  background-color: #fbfcf7;
+}
+
+.hero__title > p {
+  font-size: 30px;
+  font-family: "Montserrat";
+
+  color: #333333;
+}
+
+.hero__recommend > img {
+  width: 31px;
+  height: 34px;
+}
+.hero__recommend > div > h3 {
+  font-size: 16px;
+}
+
+.hero__recommend > div > p {
+  font-size: 10px;
+}
+.hero__recommend {
+  padding: 3px;
+  display: flex;
+  width: 160px;
+  justify-content: space-around;
+  height: 40px;
+  background: #fdffd3 0% 0% no-repeat padding-box;
+  box-shadow: 1px 1px 0px #00000029;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.hero__about > p {
+  font-family: "Montserrat";
+  margin-right: 22px;
+  font-size: 14px;
+}
+.hero__about {
+  display: flex;
+  margin-bottom: 30px;
+  /* justify-content: space-between; */
+}
+
+.player {
+  display: flex;
+}
+
+.playerLeft > h5 {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: white;
+}
+.playerLeft > button {
+  position: absolute;
+  /* width: 210px; */
+  /* padding: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 0px #00000029;
+  border-radius: 5px;
+  font-family: myFirstFont;
+  /* mbot */
+  /* height: 52px; */
+  bottom: 18px;
+  left: 20px;
+  background: white;
+}
+.playerLeft > img {
+  width: 570px;
+  height: 367px;
+}
+.playerLeft {
+  position: relative;
+  flex: 0.3;
+}
+.playerRight {
+  flex: 0.7;
+  margin-left: 70px;
+}
+
+.basic > p {
+  color: #a9b7b9;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 12px;
+}
+.basic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.devices > h3 {
+  flex: 0.7;
+  font-family: "Gothic A1", sans-serif;
+  font-size: 16px;
+}
+
+.devices > p {
+  font-size: 10px;
+}
+.devices {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.2;
+}
+.basic__slot {
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.MuiCardActions-spacing > :not(:first-child) {
+  flex: 0.2;
+}
+.slot__timings > button {
+  background-color: white !important;
+  /* background: #ffffff 0% 0% no-repeat padding-box; */
+  border: 1px solid #707070;
+  border-radius: 18px;
+  opacity: 1;
+  text-align: center;
+  font-family: "Montserrat";
+  letter-spacing: 0px;
+  color: #515151;
+  opacity: 1;
+  width: 102px;
+  height: 35px;
+}
+.slot__timings {
+  width: 350px;
+  justify-content: space-between;
+  flex: 1;
+  /* height: 55px; */
+  display: flex;
+  margin-right: 95px;
+  margin-bottom: 10px;
+}
+
+.cancelled {
+  text-decoration: line-through;
+  font-size: 12px;
+  font-family: "Montserrat";
+  margin-right: 10px;
+  font-weight: initial;
+}
+.price > button {
+  font-weight: 800;
+  font-size: 12px;
+  font-family: "Montserrat";
+  background-color: white !important;
+  box-shadow: 2px 2px 0px #0000001a;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 25px;
+  opacity: 1;
+}
+.price > span {
+  font-size: 14px !important;
+  font-family: "Montserrat";
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal 600 15px/19px Montserrat;
+  letter-spacing: 0px;
+  color: #ff3a58;
+}
+
+.price {
+  margin-bottom: 30px;
+}
+.booking__book {
+  background: #ff3a58 0% 0% no-repeat padding-box !important;
+  box-shadow: 2px 2px 0px #0000001a;
+  border: 1px solid #ff3a58 !important;
+  border-radius: 5px;
+  opacity: 1;
+  color: white !important;
+  /* padding: 10px !important; */
+  font-family: myFirstFont !important;
+  font-size: 12px !important;
+  width: 300px;
+  margin-right: 30px !important;
+  height: 45px;
+}
+.slot__timings {
+  width: fit-content;
+}
+
+.booking__share,
+.booking__shareshort {
+  color: #ff3a58 !important;
+  width: 65px;
+  height: 45px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 2px 2px 0px #0000001a;
+  border: 1px solid #ff3a58 !important;
+  border-radius: 5px;
+  opacity: 1;
+}
+.tags__container {
+  display: flex;
+  justify-content: space-between;
+}
+.badges {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  flex-direction: column !important;
+}
+
+.badges > button {
+  background: #6188ea 0% 0% no-repeat padding-box;
+  font-family: myFirstFont;
+  padding-bottom: 13px;
+  box-shadow: 0px 3px 0px #0000001a !important;
+  border-radius: 30%;
+  outline: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  width: 65px;
+  height: 27px;
+  opacity: 1;
+}
+.purple {
+  background-color: #af70fc !important;
+}
+
+.sets > button {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  box-shadow: 1px 1px 0px #0000001a !important;
+  border: 1px solid #cbd8db !important;
+  /* width: 216px; */
+  /* height: 60px; */
+  border-radius: 30px;
+  color: #37575e;
+  opacity: 1;
+}
+
+.MuiAvatar-root {
+  /* width: 216px !important; */
+  height: 60px;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  box-shadow: 1px 1px 0px #0000001a !important;
+  border: 1px solid #cbd8db !important;
+  color: #262525 !important;
+  font-family: myFirstFont !important;
+  font-size: 15px !important;
+  border-radius: 30px !important;
+  opacity: 1;
+}
+
+.MuiChip-root {
+  height: 45px !important;
+  width: fit-content !important;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  box-shadow: 1px 1px 0px #0000001a !important;
+  border: 1px solid #cbd8db !important;
+  color: #262525 !important;
+  font-family: myFirstFont !important;
+  margin-right: 25px;
+  font-size: 15px !important;
+  border-radius: 30px !important;
+  opacity: 1;
+}
+.MuiChip-root .MuiChip-avatar {
+  height: 35px !important;
+  width: 35px !important;
+}
+
+.MuiChip-label {
+  font-size: 12px;
+}
+
+.yellow > div {
+  background: #ffe30d !important;
+  color: #8a7a00 !important;
+  font-size: 10px !important;
+}
+
+.green {
+  background-color: #8ae241 !important;
+}
+
+.flat {
+  border-radius: 30px 5px 5px 30px !important;
+}
+.play {
+  position: relative;
+  bottom: -20px;
+  right: 40px;
+  background-color: white;
+  height: 46px !important;
+}
+
+@media (max-width: 770px) {
+  .MuiChip-root {
+    flex: 1;
+    margin: 0;
+    width: 256px !important;
+    display: flex !important;
+    justify-content: space-between;
+    height: 60px !important;
+    padding-right: 10px;
+  }
+  .MuiChip-label {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+  }
+  .badges {
+    margin-bottom: 15px;
+  }
+  .goal {
+    margin-bottom: 8px;
+  }
+  .sets {
+    display: flex;
+    /* overflow-y: scroll; */
+    /* overflow-x: visible; */
+
+    /* overflow-x: hidden; */
+    /* overflow-y: visible; */
+  }
+  .infoCard > p {
+    width: fit-content;
+  }
+
+  .sets,
+  .mediadiv,
+  .infoCard__cards {
+    overflow-x: scroll;
+  }
+  .mediadiv {
+    overflow-x: scroll !important;
+    width: 100% !important;
+  }
+  .MuiPaper-root{
+    margin-right: 10px;
+  }
+  .media{
+    display: flex;
+  }
+  .sets::-webkit-scrollbar,
+  .mediadiv::-webkit-scrollbar,
+  .infoCard__cards::-webkit-scrollbar {
+    width: 0px;
+  }
+}
+.goal {
+  width: 292px;
+}
+.badges {
+  height: fit-content;
+}

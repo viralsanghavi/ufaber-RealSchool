@@ -1,0 +1,125 @@
+.slider > h1 {
+  text-align: center;
+  color: #333333;
+  font-family: myFirstFont;
+  font-size: 18px;
+  margin: 45px 0 0;
+  letter-spacing: 1px;
+}
+
+.slider > h1::before {
+  content: "";
+  width: 80vw;
+  height: 3px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(236, 236, 236);
+  align-items: center;
+  top: 10px;
+  left: 10%;
+  position: relative;
+}
+
+.slider__images {
+  display: flex;
+  overflow-x: hidden;
+  padding: 21px 0;
+  position: relative;
+  bottom: -76px;
+  justify-content: center;
+}
+
+.slider__images > div > img {
+  object-fit: cover;
+  width: 260px;
+  opacity: 0.2;
+  height: 588px;
+}
+
+.slider__imagesMid {
+  position: relative;
+}
+.slider__imagesMid > img {
+  opacity: 1 !important;
+  object-fit: cover;
+}
+
+.slider__imageHigh {
+  position: relative;
+  bottom: 22px;
+  border-radius: 20px;
+  object-fit: cover;
+  border: 8px solid black;
+  width: 299px !important;
+  height: 623px !important;
+  overflow: visible;
+}
+
+.booking__shareshort {
+  display: none !important;
+}
+@media (max-width: 770px) {
+  .MuiBreadcrumbs-ol,
+  .hero__recommend,
+  .play,
+  .hidden {
+    display: none !important;
+  }
+  .slider__images {
+    justify-content: center;
+  }
+  .player,
+  .tags__container {
+    flex-direction: column;
+    display: flex;
+  }
+  .hero,
+  .infoCard {
+    padding: 0 20px !important;
+  }
+
+  .infoCard {
+    margin-top: 17px;
+  }
+  .playerLeft > img {
+    width: 320px !important;
+    height: 206px !important;
+  }
+  .playerRight {
+    margin: 0 !important;
+  }
+  .infoCard > p {
+    width: initial;
+  }
+  .booking {
+    display: flex;
+  }
+  .booking__book {
+    width: 240px !important;
+  }
+  .reverseTitle {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .devices {
+    flex: 0.5 !important;
+  }
+  .slot__timings {
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  .hero__title > p {
+    font-size: 20px !important;
+  }
+  .booking__share {
+    display: none !important;
+  }
+  .booking__shareshort {
+    display: inline !important;
+  }
+  .greenButton {
+    border: 1px solid #02c972 !important;
+    background-color: #beffda !important;
+  }
+}
